@@ -3112,3 +3112,17 @@
 [2024-05-01T18:46:20.054+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:46:20.053+0300] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-05-01T18:46:20.102+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:46:20.101+0300] {dag.py:3954} INFO - Setting next_dagrun for dbt_dag to 2024-05-01 00:00:00+00:00, run_after=2024-05-02 00:00:00+00:00
 [2024-05-01T18:46:20.151+0300] {processor.py:183} INFO - Processing /home/yohanes/airflow/dags/bash.py took 0.212 seconds
+[2024-05-01T18:46:50.291+0300] {processor.py:161} INFO - Started process (PID=66039) to work on /home/yohanes/airflow/dags/bash.py
+[2024-05-01T18:46:50.302+0300] {processor.py:830} INFO - Processing file /home/yohanes/airflow/dags/bash.py for tasks to queue
+[2024-05-01T18:46:50.305+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:46:50.305+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/yohanes/airflow/dags/bash.py
+[2024-05-01T18:46:50.330+0300] {processor.py:840} INFO - DAG(s) 'dbt_dag' retrieved from /home/yohanes/airflow/dags/bash.py
+[2024-05-01T18:46:50.396+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:46:50.396+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T18:46:50.436+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:46:50.435+0300] {dag.py:3954} INFO - Setting next_dagrun for dbt_dag to 2024-05-01 00:00:00+00:00, run_after=2024-05-02 00:00:00+00:00
+[2024-05-01T18:46:50.504+0300] {processor.py:183} INFO - Processing /home/yohanes/airflow/dags/bash.py took 0.224 seconds
+[2024-05-01T18:47:20.748+0300] {processor.py:161} INFO - Started process (PID=66537) to work on /home/yohanes/airflow/dags/bash.py
+[2024-05-01T18:47:20.749+0300] {processor.py:830} INFO - Processing file /home/yohanes/airflow/dags/bash.py for tasks to queue
+[2024-05-01T18:47:20.751+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:47:20.751+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/yohanes/airflow/dags/bash.py
+[2024-05-01T18:47:20.770+0300] {processor.py:840} INFO - DAG(s) 'dbt_dag' retrieved from /home/yohanes/airflow/dags/bash.py
+[2024-05-01T18:47:20.832+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:47:20.831+0300] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-01T18:47:20.873+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:47:20.873+0300] {dag.py:3954} INFO - Setting next_dagrun for dbt_dag to 2024-05-01 00:00:00+00:00, run_after=2024-05-02 00:00:00+00:00
+[2024-05-01T18:47:20.925+0300] {processor.py:183} INFO - Processing /home/yohanes/airflow/dags/bash.py took 0.186 seconds

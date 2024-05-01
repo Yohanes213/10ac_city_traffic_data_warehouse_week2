@@ -3790,3 +3790,13 @@ ModuleNotFoundError: No module named 'airflow.operators.postgres'
 [2024-05-01T18:46:26.151+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:46:26.150+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/yohanes/airflow/dags/merged_id.py
 [2024-05-01T18:46:26.155+0300] {processor.py:842} WARNING - No viable dags retrieved from /home/yohanes/airflow/dags/merged_id.py
 [2024-05-01T18:46:26.198+0300] {processor.py:183} INFO - Processing /home/yohanes/airflow/dags/merged_id.py took 0.079 seconds
+[2024-05-01T18:46:56.490+0300] {processor.py:161} INFO - Started process (PID=66117) to work on /home/yohanes/airflow/dags/merged_id.py
+[2024-05-01T18:46:56.506+0300] {processor.py:830} INFO - Processing file /home/yohanes/airflow/dags/merged_id.py for tasks to queue
+[2024-05-01T18:46:56.508+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:46:56.507+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/yohanes/airflow/dags/merged_id.py
+[2024-05-01T18:46:56.510+0300] {processor.py:842} WARNING - No viable dags retrieved from /home/yohanes/airflow/dags/merged_id.py
+[2024-05-01T18:46:56.559+0300] {processor.py:183} INFO - Processing /home/yohanes/airflow/dags/merged_id.py took 0.079 seconds
+[2024-05-01T18:47:26.840+0300] {processor.py:161} INFO - Started process (PID=66615) to work on /home/yohanes/airflow/dags/merged_id.py
+[2024-05-01T18:47:26.852+0300] {processor.py:830} INFO - Processing file /home/yohanes/airflow/dags/merged_id.py for tasks to queue
+[2024-05-01T18:47:26.854+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:47:26.854+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/yohanes/airflow/dags/merged_id.py
+[2024-05-01T18:47:26.857+0300] {processor.py:842} WARNING - No viable dags retrieved from /home/yohanes/airflow/dags/merged_id.py
+[2024-05-01T18:47:26.904+0300] {processor.py:183} INFO - Processing /home/yohanes/airflow/dags/merged_id.py took 0.075 seconds

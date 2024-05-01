@@ -3806,3 +3806,12 @@ ModuleNotFoundError: No module named 'airflow.providers.postgres'
 [2024-05-01T18:46:26.154+0300] {processor.py:842} WARNING - No viable dags retrieved from /home/yohanes/airflow/dags/vehicle_info.py
 [2024-05-01T18:46:26.194+0300] {processor.py:183} INFO - Processing /home/yohanes/airflow/dags/vehicle_info.py took 0.083 seconds
 [2024-05-01T18:46:56.484+0300] {processor.py:161} INFO - Started process (PID=66114) to work on /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:46:56.485+0300] {processor.py:830} INFO - Processing file /home/yohanes/airflow/dags/vehicle_info.py for tasks to queue
+[2024-05-01T18:46:56.488+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:46:56.487+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:46:56.490+0300] {processor.py:842} WARNING - No viable dags retrieved from /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:46:56.529+0300] {processor.py:183} INFO - Processing /home/yohanes/airflow/dags/vehicle_info.py took 0.059 seconds
+[2024-05-01T18:47:26.833+0300] {processor.py:161} INFO - Started process (PID=66612) to work on /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:47:26.852+0300] {processor.py:830} INFO - Processing file /home/yohanes/airflow/dags/vehicle_info.py for tasks to queue
+[2024-05-01T18:47:26.854+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:47:26.854+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:47:26.857+0300] {processor.py:842} WARNING - No viable dags retrieved from /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:47:26.903+0300] {processor.py:183} INFO - Processing /home/yohanes/airflow/dags/vehicle_info.py took 0.080 seconds

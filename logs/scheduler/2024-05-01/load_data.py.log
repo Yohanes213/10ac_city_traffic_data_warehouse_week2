@@ -1533,3 +1533,13 @@ ModuleNotFoundError: No module named 'airflow.providers.dbt'
 [2024-05-01T18:46:25.023+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:46:25.023+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/yohanes/airflow/dags/load_data.py
 [2024-05-01T18:46:25.026+0300] {processor.py:842} WARNING - No viable dags retrieved from /home/yohanes/airflow/dags/load_data.py
 [2024-05-01T18:46:25.068+0300] {processor.py:183} INFO - Processing /home/yohanes/airflow/dags/load_data.py took 0.077 seconds
+[2024-05-01T18:46:55.389+0300] {processor.py:161} INFO - Started process (PID=66102) to work on /home/yohanes/airflow/dags/load_data.py
+[2024-05-01T18:46:55.390+0300] {processor.py:830} INFO - Processing file /home/yohanes/airflow/dags/load_data.py for tasks to queue
+[2024-05-01T18:46:55.393+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:46:55.392+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/yohanes/airflow/dags/load_data.py
+[2024-05-01T18:46:55.396+0300] {processor.py:842} WARNING - No viable dags retrieved from /home/yohanes/airflow/dags/load_data.py
+[2024-05-01T18:46:55.435+0300] {processor.py:183} INFO - Processing /home/yohanes/airflow/dags/load_data.py took 0.059 seconds
+[2024-05-01T18:47:25.814+0300] {processor.py:161} INFO - Started process (PID=66586) to work on /home/yohanes/airflow/dags/load_data.py
+[2024-05-01T18:47:25.816+0300] {processor.py:830} INFO - Processing file /home/yohanes/airflow/dags/load_data.py for tasks to queue
+[2024-05-01T18:47:25.819+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:47:25.818+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/yohanes/airflow/dags/load_data.py
+[2024-05-01T18:47:25.822+0300] {processor.py:842} WARNING - No viable dags retrieved from /home/yohanes/airflow/dags/load_data.py
+[2024-05-01T18:47:25.867+0300] {processor.py:183} INFO - Processing /home/yohanes/airflow/dags/load_data.py took 0.065 seconds
