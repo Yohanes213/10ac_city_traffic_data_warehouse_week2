@@ -1,0 +1,11 @@
+airflow-scheduler.err
+airflow-scheduler.log
+airflow-scheduler.out
+airflow-scheduler.pid
+airflow-webserver.err
+airflow-webserver.log
+airflow-webserver.out
+airflow.cfg
+airflow.db
+webserver_config.py
+week2_env
