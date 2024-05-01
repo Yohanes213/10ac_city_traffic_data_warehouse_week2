@@ -3815,3 +3815,68 @@ ModuleNotFoundError: No module named 'airflow.providers.postgres'
 [2024-05-01T18:47:26.854+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:47:26.854+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/yohanes/airflow/dags/vehicle_info.py
 [2024-05-01T18:47:26.857+0300] {processor.py:842} WARNING - No viable dags retrieved from /home/yohanes/airflow/dags/vehicle_info.py
 [2024-05-01T18:47:26.903+0300] {processor.py:183} INFO - Processing /home/yohanes/airflow/dags/vehicle_info.py took 0.080 seconds
+[2024-05-01T18:47:57.266+0300] {processor.py:161} INFO - Started process (PID=66958) to work on /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:47:57.271+0300] {processor.py:830} INFO - Processing file /home/yohanes/airflow/dags/vehicle_info.py for tasks to queue
+[2024-05-01T18:47:57.283+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:47:57.282+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:47:57.288+0300] {processor.py:842} WARNING - No viable dags retrieved from /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:47:57.359+0300] {processor.py:183} INFO - Processing /home/yohanes/airflow/dags/vehicle_info.py took 0.112 seconds
+[2024-05-01T18:48:27.719+0300] {processor.py:161} INFO - Started process (PID=67340) to work on /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:48:27.889+0300] {processor.py:830} INFO - Processing file /home/yohanes/airflow/dags/vehicle_info.py for tasks to queue
+[2024-05-01T18:48:27.892+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:48:27.891+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:48:27.895+0300] {processor.py:842} WARNING - No viable dags retrieved from /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:48:27.937+0300] {processor.py:183} INFO - Processing /home/yohanes/airflow/dags/vehicle_info.py took 0.231 seconds
+[2024-05-01T18:48:58.257+0300] {processor.py:161} INFO - Started process (PID=67677) to work on /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:48:58.258+0300] {processor.py:830} INFO - Processing file /home/yohanes/airflow/dags/vehicle_info.py for tasks to queue
+[2024-05-01T18:48:58.260+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:48:58.260+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:48:58.264+0300] {processor.py:842} WARNING - No viable dags retrieved from /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:48:58.304+0300] {processor.py:183} INFO - Processing /home/yohanes/airflow/dags/vehicle_info.py took 0.062 seconds
+[2024-05-01T18:49:28.676+0300] {processor.py:161} INFO - Started process (PID=68025) to work on /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:49:28.693+0300] {processor.py:830} INFO - Processing file /home/yohanes/airflow/dags/vehicle_info.py for tasks to queue
+[2024-05-01T18:49:28.696+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:49:28.696+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:49:28.699+0300] {processor.py:842} WARNING - No viable dags retrieved from /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:49:28.735+0300] {processor.py:183} INFO - Processing /home/yohanes/airflow/dags/vehicle_info.py took 0.073 seconds
+[2024-05-01T18:49:59.058+0300] {processor.py:161} INFO - Started process (PID=68280) to work on /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:49:59.085+0300] {processor.py:830} INFO - Processing file /home/yohanes/airflow/dags/vehicle_info.py for tasks to queue
+[2024-05-01T18:49:59.089+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:49:59.088+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:49:59.091+0300] {processor.py:842} WARNING - No viable dags retrieved from /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:49:59.129+0300] {processor.py:183} INFO - Processing /home/yohanes/airflow/dags/vehicle_info.py took 0.087 seconds
+[2024-05-01T18:50:29.483+0300] {processor.py:161} INFO - Started process (PID=68534) to work on /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:50:29.497+0300] {processor.py:830} INFO - Processing file /home/yohanes/airflow/dags/vehicle_info.py for tasks to queue
+[2024-05-01T18:50:29.500+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:50:29.499+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:50:29.503+0300] {processor.py:842} WARNING - No viable dags retrieved from /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:50:29.542+0300] {processor.py:183} INFO - Processing /home/yohanes/airflow/dags/vehicle_info.py took 0.071 seconds
+[2024-05-01T18:50:59.944+0300] {processor.py:161} INFO - Started process (PID=68808) to work on /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:50:59.966+0300] {processor.py:830} INFO - Processing file /home/yohanes/airflow/dags/vehicle_info.py for tasks to queue
+[2024-05-01T18:50:59.970+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:50:59.969+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:50:59.973+0300] {processor.py:842} WARNING - No viable dags retrieved from /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:51:00.041+0300] {processor.py:183} INFO - Processing /home/yohanes/airflow/dags/vehicle_info.py took 0.113 seconds
+[2024-05-01T18:51:30.367+0300] {processor.py:161} INFO - Started process (PID=69076) to work on /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:51:30.435+0300] {processor.py:830} INFO - Processing file /home/yohanes/airflow/dags/vehicle_info.py for tasks to queue
+[2024-05-01T18:51:30.437+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:51:30.437+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:51:30.439+0300] {processor.py:842} WARNING - No viable dags retrieved from /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:51:30.476+0300] {processor.py:183} INFO - Processing /home/yohanes/airflow/dags/vehicle_info.py took 0.124 seconds
+[2024-05-01T18:52:00.820+0300] {processor.py:161} INFO - Started process (PID=69339) to work on /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:52:00.852+0300] {processor.py:830} INFO - Processing file /home/yohanes/airflow/dags/vehicle_info.py for tasks to queue
+[2024-05-01T18:52:00.855+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:52:00.855+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:52:00.860+0300] {processor.py:842} WARNING - No viable dags retrieved from /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:52:00.905+0300] {processor.py:183} INFO - Processing /home/yohanes/airflow/dags/vehicle_info.py took 0.100 seconds
+[2024-05-01T18:52:31.135+0300] {processor.py:161} INFO - Started process (PID=69799) to work on /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:52:31.137+0300] {processor.py:830} INFO - Processing file /home/yohanes/airflow/dags/vehicle_info.py for tasks to queue
+[2024-05-01T18:52:31.140+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:52:31.139+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:52:31.143+0300] {processor.py:842} WARNING - No viable dags retrieved from /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:52:31.179+0300] {processor.py:183} INFO - Processing /home/yohanes/airflow/dags/vehicle_info.py took 0.056 seconds
+[2024-05-01T18:53:01.544+0300] {processor.py:161} INFO - Started process (PID=70144) to work on /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:53:01.567+0300] {processor.py:830} INFO - Processing file /home/yohanes/airflow/dags/vehicle_info.py for tasks to queue
+[2024-05-01T18:53:01.570+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:53:01.569+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:53:01.574+0300] {processor.py:842} WARNING - No viable dags retrieved from /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:53:01.620+0300] {processor.py:183} INFO - Processing /home/yohanes/airflow/dags/vehicle_info.py took 0.094 seconds
+[2024-05-01T18:53:32.007+0300] {processor.py:161} INFO - Started process (PID=70504) to work on /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:53:32.058+0300] {processor.py:830} INFO - Processing file /home/yohanes/airflow/dags/vehicle_info.py for tasks to queue
+[2024-05-01T18:53:32.060+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:53:32.060+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:53:32.063+0300] {processor.py:842} WARNING - No viable dags retrieved from /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:53:32.107+0300] {processor.py:183} INFO - Processing /home/yohanes/airflow/dags/vehicle_info.py took 0.113 seconds
+[2024-05-01T18:54:02.452+0300] {processor.py:161} INFO - Started process (PID=70778) to work on /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:54:02.471+0300] {processor.py:830} INFO - Processing file /home/yohanes/airflow/dags/vehicle_info.py for tasks to queue
+[2024-05-01T18:54:02.474+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:54:02.473+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:54:02.477+0300] {processor.py:842} WARNING - No viable dags retrieved from /home/yohanes/airflow/dags/vehicle_info.py
+[2024-05-01T18:54:02.528+0300] {processor.py:183} INFO - Processing /home/yohanes/airflow/dags/vehicle_info.py took 0.090 seconds
