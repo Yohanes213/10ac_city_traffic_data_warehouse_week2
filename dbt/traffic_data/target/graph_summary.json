@@ -1,1 +1,0 @@
-{"_invocation_id": "6fd73627-4409-4e59-8080-b41362367777", "linked": {"0": {"name": "model.traffic_data.trajectory_summary", "type": "model", "succ": [1]}, "1": {"name": "model.traffic_data.merged_id", "type": "model", "succ": [2]}, "2": {"name": "model.traffic_data.vehicle_info", "type": "model"}}}
