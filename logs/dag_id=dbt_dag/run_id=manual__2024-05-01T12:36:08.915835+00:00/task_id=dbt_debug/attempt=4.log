@@ -1,0 +1,71 @@
+[2024-05-01T17:46:30.788+0300] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-01T17:46:30.963+0300] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_dag.dbt_debug manual__2024-05-01T12:36:08.915835+00:00 [queued]>
+[2024-05-01T17:46:31.042+0300] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_dag.dbt_debug manual__2024-05-01T12:36:08.915835+00:00 [queued]>
+[2024-05-01T17:46:31.044+0300] {taskinstance.py:2303} INFO - Starting attempt 4 of 4
+[2024-05-01T17:46:35.532+0300] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): dbt_debug> on 2024-05-01 12:36:08.915835+00:00
+[2024-05-01T17:46:35.539+0300] {standard_task_runner.py:63} INFO - Started process 17865 to run task
+[2024-05-01T17:46:35.550+0300] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'dbt_dag', 'dbt_debug', 'manual__2024-05-01T12:36:08.915835+00:00', '--job-id', '58', '--raw', '--subdir', 'DAGS_FOLDER/bash.py', '--cfg-path', '/tmp/tmprpi12y6o']
+[2024-05-01T17:46:35.554+0300] {standard_task_runner.py:91} INFO - Job 58: Subtask dbt_debug
+[2024-05-01T17:46:35.709+0300] {task_command.py:426} INFO - Running <TaskInstance: dbt_dag.dbt_debug manual__2024-05-01T12:36:08.915835+00:00 [running]> on host yohanes-Satellite-Pro-C50-A363
+[2024-05-01T17:46:35.956+0300] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='dbt_dag' AIRFLOW_CTX_TASK_ID='dbt_debug' AIRFLOW_CTX_EXECUTION_DATE='2024-05-01T12:36:08.915835+00:00' AIRFLOW_CTX_TRY_NUMBER='4' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-01T12:36:08.915835+00:00'
+[2024-05-01T17:46:35.957+0300] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-01T17:46:35.987+0300] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-05-01T17:46:35.988+0300] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'dbt debug']
+[2024-05-01T17:46:36.002+0300] {subprocess.py:86} INFO - Output:
+[2024-05-01T17:46:42.891+0300] {subprocess.py:93} INFO - [0m14:46:42  Running with dbt=1.7.13
+[2024-05-01T17:46:42.894+0300] {subprocess.py:93} INFO - [0m14:46:42  dbt version: 1.7.13
+[2024-05-01T17:46:42.895+0300] {subprocess.py:93} INFO - [0m14:46:42  python version: 3.8.10
+[2024-05-01T17:46:42.896+0300] {subprocess.py:93} INFO - [0m14:46:42  python path: /home/yohanes/Documents/10academy/week2_2/10ac_city_traffic_data_warehouse_week2/week2_env/bin/python3
+[2024-05-01T17:46:42.898+0300] {subprocess.py:93} INFO - [0m14:46:42  os info: Linux-5.15.0-105-generic-x86_64-with-glibc2.29
+[2024-05-01T17:46:43.076+0300] {subprocess.py:93} INFO - [0m14:46:43  Using profiles dir at /home/yohanes/.dbt
+[2024-05-01T17:46:43.078+0300] {subprocess.py:93} INFO - [0m14:46:43  Using profiles.yml file at /home/yohanes/.dbt/profiles.yml
+[2024-05-01T17:46:43.079+0300] {subprocess.py:93} INFO - [0m14:46:43  Using dbt_project.yml file at /tmp/airflowtmp5qf8l_c7/dbt_project.yml
+[2024-05-01T17:46:43.081+0300] {subprocess.py:93} INFO - [0m14:46:43  adapter type: postgres
+[2024-05-01T17:46:43.082+0300] {subprocess.py:93} INFO - [0m14:46:43  adapter version: 1.7.13
+[2024-05-01T17:46:43.084+0300] {subprocess.py:93} INFO - [0m14:46:43  Configuration:
+[2024-05-01T17:46:43.085+0300] {subprocess.py:93} INFO - [0m14:46:43    profiles.yml file [[32mOK found and valid[0m]
+[2024-05-01T17:46:43.086+0300] {subprocess.py:93} INFO - [0m14:46:43    dbt_project.yml file [[31mERROR not found[0m]
+[2024-05-01T17:46:43.087+0300] {subprocess.py:93} INFO - [0m14:46:43  Required dependencies:
+[2024-05-01T17:46:43.100+0300] {subprocess.py:93} INFO - [0m14:46:43   - git [[32mOK found[0m]
+[2024-05-01T17:46:43.101+0300] {subprocess.py:93} INFO - 
+[2024-05-01T17:46:43.101+0300] {subprocess.py:93} INFO - [0m14:46:43  Connection:
+[2024-05-01T17:46:43.103+0300] {subprocess.py:93} INFO - [0m14:46:43    host: localhost
+[2024-05-01T17:46:43.104+0300] {subprocess.py:93} INFO - [0m14:46:43    port: 5432
+[2024-05-01T17:46:43.105+0300] {subprocess.py:93} INFO - [0m14:46:43    user: postgres
+[2024-05-01T17:46:43.106+0300] {subprocess.py:93} INFO - [0m14:46:43    database: traffic
+[2024-05-01T17:46:43.108+0300] {subprocess.py:93} INFO - [0m14:46:43    schema: traffic_schema
+[2024-05-01T17:46:43.109+0300] {subprocess.py:93} INFO - [0m14:46:43    connect_timeout: 10
+[2024-05-01T17:46:43.110+0300] {subprocess.py:93} INFO - [0m14:46:43    role: None
+[2024-05-01T17:46:43.111+0300] {subprocess.py:93} INFO - [0m14:46:43    search_path: None
+[2024-05-01T17:46:43.112+0300] {subprocess.py:93} INFO - [0m14:46:43    keepalives_idle: 0
+[2024-05-01T17:46:43.114+0300] {subprocess.py:93} INFO - [0m14:46:43    sslmode: None
+[2024-05-01T17:46:43.115+0300] {subprocess.py:93} INFO - [0m14:46:43    sslcert: None
+[2024-05-01T17:46:43.116+0300] {subprocess.py:93} INFO - [0m14:46:43    sslkey: None
+[2024-05-01T17:46:43.117+0300] {subprocess.py:93} INFO - [0m14:46:43    sslrootcert: None
+[2024-05-01T17:46:43.118+0300] {subprocess.py:93} INFO - [0m14:46:43    application_name: dbt
+[2024-05-01T17:46:43.120+0300] {subprocess.py:93} INFO - [0m14:46:43    retries: 1
+[2024-05-01T17:46:43.121+0300] {subprocess.py:93} INFO - [0m14:46:43  Registered adapter: postgres=1.7.13
+[2024-05-01T17:46:43.151+0300] {subprocess.py:93} INFO - [0m14:46:43    Connection test: [[32mOK connection ok[0m]
+[2024-05-01T17:46:43.152+0300] {subprocess.py:93} INFO - 
+[2024-05-01T17:46:43.154+0300] {subprocess.py:93} INFO - [0m14:46:43  [31m1 check failed:[0m
+[2024-05-01T17:46:43.155+0300] {subprocess.py:93} INFO - [0m14:46:43  Project loading failed for the following reason:
+[2024-05-01T17:46:43.156+0300] {subprocess.py:93} INFO -  project path </tmp/airflowtmp5qf8l_c7/dbt_project.yml> not found
+[2024-05-01T17:46:43.157+0300] {subprocess.py:93} INFO - 
+[2024-05-01T17:46:44.784+0300] {subprocess.py:97} INFO - Command exited with return code 1
+[2024-05-01T17:46:44.785+0300] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-01T17:46:44.809+0300] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/yohanes/Documents/10academy/week2_2/10ac_city_traffic_data_warehouse_week2/week2_env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/yohanes/Documents/10academy/week2_2/10ac_city_traffic_data_warehouse_week2/week2_env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/yohanes/Documents/10academy/week2_2/10ac_city_traffic_data_warehouse_week2/week2_env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/yohanes/Documents/10academy/week2_2/10ac_city_traffic_data_warehouse_week2/week2_env/lib/python3.8/site-packages/airflow/operators/bash.py", line 243, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2024-05-01T17:46:44.813+0300] {taskinstance.py:1205} INFO - Marking task as FAILED. dag_id=dbt_dag, task_id=dbt_debug, execution_date=20240501T123608, start_date=20240501T144630, end_date=20240501T144644
+[2024-05-01T17:46:44.932+0300] {standard_task_runner.py:110} ERROR - Failed to execute job 58 for task dbt_debug (Bash command failed. The command returned a non-zero exit code 1.; 17865)
+[2024-05-01T17:46:44.967+0300] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-05-01T17:46:45.026+0300] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-01T17:46:45.221+0300] {local_task_job_runner.py:222} INFO - ::endgroup::
