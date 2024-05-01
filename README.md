@@ -5,26 +5,27 @@ This project provides a dbt and Airflow setup for transforming traffic data and 
 Project Structure:
 
 traffic_data/
-├── analysis/       # (Optional) Directory for custom dbt analyses
-├── dbt_packages/  # Installed dbt packages
-├── logs/           # dbt execution logs
-├── macros/         # (Optional) Directory for custom dbt macros
-├── models/         # dbt SQL models for data transformation
-│   ├── merged_id.sql
-│   ├── trajectory_summary.sql
-│   └── vehicle_info.sql
-├── seeds/          # (Optional) Directory for data seeding scripts
-├── snapshots/      # dbt model snapshots
-├── target/         # dbt-generated artifacts
-├── tests/          # Unit tests for dbt models (optional)
-├── .gitignore      # Git ignore configuration
-├── dbt_project.yml  # dbt project configuration file
-└── profiles.yml    # Database connection profiles
+- analysis/       # (Optional) Directory for custom dbt analyses
+- dbt_packages/  # Installed dbt packages
+- logs/           # dbt execution logs
+- macros/         # (Optional) Directory for custom dbt macros
+- models/         # dbt SQL models for data transformation
+   - merged_id.sql
+   - trajectory_summary.sql
+   - vehicle_info.sql
+- seeds/          # (Optional) Directory for data seeding scripts
+- snapshots/      # dbt model snapshots
+- target/         # dbt-generated artifacts
+- tests/          # Unit tests for dbt models (optional)
+- .gitignore      # Git ignore configuration
+- dbt_project.yml  # dbt project configuration file
 
 ### Requirements:
 
 dbt: https://docs.getdbt.com/
+
 Airflow: https://airflow.apache.org/docs/
+
 PostgreSQL (or your target database)
 
 
