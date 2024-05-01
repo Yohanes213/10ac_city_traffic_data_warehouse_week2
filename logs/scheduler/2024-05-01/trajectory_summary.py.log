@@ -3869,3 +3869,8 @@ ModuleNotFoundError: No module named 'airflow.operators.postgres'
 [2024-05-01T18:54:01.363+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:54:01.363+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/yohanes/airflow/dags/trajectory_summary.py
 [2024-05-01T18:54:01.365+0300] {processor.py:842} WARNING - No viable dags retrieved from /home/yohanes/airflow/dags/trajectory_summary.py
 [2024-05-01T18:54:01.403+0300] {processor.py:183} INFO - Processing /home/yohanes/airflow/dags/trajectory_summary.py took 0.073 seconds
+[2024-05-01T18:54:31.744+0300] {processor.py:161} INFO - Started process (PID=71101) to work on /home/yohanes/airflow/dags/trajectory_summary.py
+[2024-05-01T18:54:31.745+0300] {processor.py:830} INFO - Processing file /home/yohanes/airflow/dags/trajectory_summary.py for tasks to queue
+[2024-05-01T18:54:31.750+0300] {logging_mixin.py:188} INFO - [2024-05-01T18:54:31.747+0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/yohanes/airflow/dags/trajectory_summary.py
+[2024-05-01T18:54:31.752+0300] {processor.py:842} WARNING - No viable dags retrieved from /home/yohanes/airflow/dags/trajectory_summary.py
+[2024-05-01T18:54:31.795+0300] {processor.py:183} INFO - Processing /home/yohanes/airflow/dags/trajectory_summary.py took 0.062 seconds
