@@ -15601,3 +15601,39 @@ File Path                                PID    Runtime      # DAGs    # Errors 
 [2024-05-01T19:10:13.163+0300] {manager.py:1128} WARNING - Skipping processing of missing file: /home/yohanes/airflow/dags/bash.py
 [2024-05-01T19:12:06.740+0300] {manager.py:737} INFO - Searching for files in /home/yohanes/airflow/dags
 [2024-05-01T19:12:06.741+0300] {manager.py:740} INFO - There are 0 files in /home/yohanes/airflow/dags
+[2024-05-01T19:17:07.595+0300] {manager.py:737} INFO - Searching for files in /home/yohanes/airflow/dags
+[2024-05-01T19:17:07.596+0300] {manager.py:740} INFO - There are 0 files in /home/yohanes/airflow/dags
+[2024-05-01T19:22:08.131+0300] {manager.py:737} INFO - Searching for files in /home/yohanes/airflow/dags
+[2024-05-01T19:22:08.131+0300] {manager.py:740} INFO - There are 0 files in /home/yohanes/airflow/dags
+[2024-05-01T19:27:08.630+0300] {manager.py:737} INFO - Searching for files in /home/yohanes/airflow/dags
+[2024-05-01T19:27:08.631+0300] {manager.py:740} INFO - There are 0 files in /home/yohanes/airflow/dags
+[2024-05-01T19:32:09.217+0300] {manager.py:737} INFO - Searching for files in /home/yohanes/airflow/dags
+[2024-05-01T19:32:09.217+0300] {manager.py:740} INFO - There are 0 files in /home/yohanes/airflow/dags
+[2024-05-01T19:37:09.844+0300] {manager.py:737} INFO - Searching for files in /home/yohanes/airflow/dags
+[2024-05-01T19:37:09.845+0300] {manager.py:740} INFO - There are 0 files in /home/yohanes/airflow/dags
+[2024-05-01T19:42:10.383+0300] {manager.py:737} INFO - Searching for files in /home/yohanes/airflow/dags
+[2024-05-01T19:42:10.384+0300] {manager.py:740} INFO - There are 0 files in /home/yohanes/airflow/dags
+[2024-05-01T19:47:10.936+0300] {manager.py:737} INFO - Searching for files in /home/yohanes/airflow/dags
+[2024-05-01T19:47:10.937+0300] {manager.py:740} INFO - There are 0 files in /home/yohanes/airflow/dags
+[2024-05-01T19:52:11.563+0300] {manager.py:737} INFO - Searching for files in /home/yohanes/airflow/dags
+[2024-05-01T19:52:11.564+0300] {manager.py:740} INFO - There are 0 files in /home/yohanes/airflow/dags
+[2024-05-01T19:57:12.208+0300] {manager.py:737} INFO - Searching for files in /home/yohanes/airflow/dags
+[2024-05-01T19:57:12.209+0300] {manager.py:740} INFO - There are 0 files in /home/yohanes/airflow/dags
+[2024-05-01T20:02:12.748+0300] {manager.py:737} INFO - Searching for files in /home/yohanes/airflow/dags
+[2024-05-01T20:02:12.749+0300] {manager.py:740} INFO - There are 0 files in /home/yohanes/airflow/dags
+[2024-05-01T20:07:13.281+0300] {manager.py:737} INFO - Searching for files in /home/yohanes/airflow/dags
+[2024-05-01T20:07:13.282+0300] {manager.py:740} INFO - There are 0 files in /home/yohanes/airflow/dags
+[2024-05-01T20:12:13.879+0300] {manager.py:737} INFO - Searching for files in /home/yohanes/airflow/dags
+[2024-05-01T20:12:13.880+0300] {manager.py:740} INFO - There are 0 files in /home/yohanes/airflow/dags
+[2024-05-01T20:17:14.475+0300] {manager.py:737} INFO - Searching for files in /home/yohanes/airflow/dags
+[2024-05-01T20:17:14.477+0300] {manager.py:740} INFO - There are 0 files in /home/yohanes/airflow/dags
+[2024-05-01T20:22:15.311+0300] {manager.py:737} INFO - Searching for files in /home/yohanes/airflow/dags
+[2024-05-01T20:22:15.364+0300] {manager.py:740} INFO - There are 0 files in /home/yohanes/airflow/dags
+[2024-05-01T20:27:16.171+0300] {manager.py:737} INFO - Searching for files in /home/yohanes/airflow/dags
+[2024-05-01T20:27:16.172+0300] {manager.py:740} INFO - There are 0 files in /home/yohanes/airflow/dags
+[2024-05-01T20:32:17.125+0300] {manager.py:737} INFO - Searching for files in /home/yohanes/airflow/dags
+[2024-05-01T20:32:17.126+0300] {manager.py:740} INFO - There are 0 files in /home/yohanes/airflow/dags
+[2024-05-01T20:37:18.004+0300] {manager.py:737} INFO - Searching for files in /home/yohanes/airflow/dags
+[2024-05-01T20:37:18.004+0300] {manager.py:740} INFO - There are 0 files in /home/yohanes/airflow/dags
+[2024-05-01T20:42:18.750+0300] {manager.py:737} INFO - Searching for files in /home/yohanes/airflow/dags
+[2024-05-01T20:42:18.751+0300] {manager.py:740} INFO - There are 0 files in /home/yohanes/airflow/dags
