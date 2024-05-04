@@ -2,59 +2,51 @@
 
 This project provides a dbt and Airflow setup for transforming traffic data and creating analytical models.
 
-Project Structure:
 
-traffic_data/
-- analysis/       # (Optional) Directory for custom dbt analyses
-- dbt_packages/  # Installed dbt packages
-- logs/           # dbt execution logs
-- macros/         # (Optional) Directory for custom dbt macros
-- models/         # dbt SQL models for data transformation
-   - merged_id.sql
-   - trajectory_summary.sql
-   - vehicle_info.sql
-- seeds/          # (Optional) Directory for data seeding scripts
-- snapshots/      # dbt model snapshots
-- target/         # dbt-generated artifacts
-- tests/          # Unit tests for dbt models (optional)
-- .gitignore      # Git ignore configuration
-- dbt_project.yml  # dbt project configuration file
+## Contents
 
-### Requirements:
+- **dags**: Directory containing Airflow DAG script.
+- **dbt**: Directory containing DBT project structure.
+  - **logs**: Directory to store DBT logs.
+  - **traffic_data**: DBT project directory.
+    - **analysis**: Directory for DBT analysis models.
+    - **macros**: Directory for DBT macros.
+    - **models**: Directory for DBT models.
+    - **seeds**: Directory for DBT seed data.
+    - **snapshots**: Directory for DBT snapshots.
+    - **tests**: Directory for DBT tests.
+  - **.gitignore**: Git ignore file for DBT project.
+  - **README.md**: Readme file for DBT project.
+  - **dbt_project.yml**: DBT project configuration file.
+- **.gitignore**: Git ignore file for the entire repository.
+- **README.md**: Main Readme file for the repository.
 
-dbt: https://docs.getdbt.com/
+## `airflow_dbt_executor.py`
 
-Airflow: https://airflow.apache.org/docs/
+This Python script defines an Airflow DAG (`dbt_dag`) to execute DBT commands using BashOperators.
 
-PostgreSQL (or your target database)
+### DAG Details:
 
+- **DAG ID**: `dbt_dag`
+- **Schedule Interval**: Daily (`@daily`)
+- **Start Date**: May 1, 2024
+- **Catchup**: Disabled
 
-### Setup:
+### Tasks:
 
-1. Install dbt and Airflow: Follow the installation instructions for your environment.
-2. Database Connection:
-    - Create a file named profiles.yml in your home directory (usually ~/.dbt/).
-    - Define a profile named traffic_data in profiles.yml with your actual database connection details (target, host, port, user, password, database).
-3. Initialize dbt project: Navigate to the traffic_data directory and run dbt init.
-4. Configure Airflow DAG (dags/bash.py): Update the DAG configuration in bash.py with your desired schedule and potentially add custom error handling functions.
-5. Start Airflow Webserver: Follow the instructions for starting the Airflow webserver.
+1. **dbt_debug**: Task to run `dbt debug` command.
+2. **dbt_run**: Task to run `dbt run` command.
 
-### Running the Pipeline:
+The `dbt_debug` task is followed by the `dbt_run` task.
 
-The Airflow DAG (dbt_dag) is defined in dags/bash.py. It includes tasks for:
-Optional dbt debug (commented out)
-dbt run to execute SQL models for transformation
-The DAG typically runs daily (adjust the schedule in bash.py if needed).
+Both tasks are configured to retry on failure with a delay of 5 minutes, and `dbt_run` is configured to retry up to 3 times.
 
+## Instructions
 
-### dbt Models:
+To use this DAG:
 
-Traffic data models are located in the models directory.
-Each model is a separate SQL file defining transformations for your traffic data.
-Consider adding comments to document the purpose of each model.
-
-### Further Development:
-
-Add new dbt models for additional data transformations.
-Create custom dbt analyses and macros in the respective directories.
-Enhance the Airflow DAG with additional tasks and dependencies for a more complex workflow.
+1. Clone this repository.
+2. Place the `airflow_dbt_executor.py` file in your Airflow DAGs folder.
+3. Ensure DBT is installed in your Airflow environment.
+4. Adjust the paths and commands in the DAG script (`airflow_dbt_executor.py`) as needed.
+5. Trigger the DAG in Airflow to execute DBT commands according to the defined schedule.
