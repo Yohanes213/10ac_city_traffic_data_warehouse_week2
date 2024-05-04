@@ -18,6 +18,7 @@ This project provides a dbt and Airflow setup for transforming traffic data and 
   - **.gitignore**: Git ignore file for DBT project.
   - **README.md**: Readme file for DBT project.
   - **dbt_project.yml**: DBT project configuration file.
+- **screenshots**
 - **.gitignore**: Git ignore file for the entire repository.
 - **README.md**: Main Readme file for the repository.
 
