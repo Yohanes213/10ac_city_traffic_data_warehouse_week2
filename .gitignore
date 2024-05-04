@@ -9,4 +9,6 @@ airflow.cfg
 airflow.db
 webserver_config.py
 week2_env
-logs/dag_processor_manager/dag_processor_manager.log
+logs
+
+dags/__pycache__
